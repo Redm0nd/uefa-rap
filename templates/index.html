@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <title>Referee Assistance Program</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Welcome to the Referee Assistance Program</h1>
-        </header>
         <nav class="menu">
             <ul>
-                <li onclick="showSubMenu('decision-making');">DECISION MAKING</li>
-                <!-- Repeat for other menu items -->
+                <li id="decision-making-item" onclick="toggleSubMenu('decision-making-submenu');">DECISION MAKING</li>
+                <li id="decision-making-item" onclick="toggleSubMenu('management-issues-submenu');">MANAGEMENT ISSUES</li>
+                <li class="menu-item" data-target="offside">OFFSIDE</li>
+                <li class="menu-item" data-target="teamwork">TEAMWORK</li>
+                <li class="menu-item" data-target="laws-of-the-game">LAWS OF THE GAME</li>
+                <li class="menu-item" data-target="video-test">MATCH SITUATIONS VIDEO TEST</li>
+                <li class="menu-item" data-target="analyses">MATCH SITUATIONS ANALYSES</li>
             </ul>
         </nav>
-        <div id="decision-making" class="submenu" style="display:none;">
-            <!-- Submenu items here, these could also be list items if you prefer -->
-            <div onclick="loadContent('challenges');">Challenges (A1 - A52)</div>
-            <!-- Repeat for other submenu items -->
+        <div class="content">
+            <div id="decision-making-submenu" class="submenu">
+                <div>Challenges (A1-A52)</div>
+                <div>DOGSO-SPA (B1-B20)</div>
+                <div>Handball (C1-C26)</div>
+                <div>Holding (D1-D14)</div>
+                <div>Illegal Use of Arms (E1-E16)</div>
+                <div>Penalty Area Decisions (F1-F38)</div>
+                <div>Simulation (G1-G15)</div>
+                <!-- Repeat for other submenu items -->
+            </div>
+            <!-- Include other submenus with different ids here -->
         </div>
-        <!-- Include other submenus with different ids -->
     </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
