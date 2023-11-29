@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Referee Assistance Program</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Referee Assistance Program</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li onclick="showSubMenu('decision-making');">DECISION MAKING</li>
+                <!-- Repeat for other menu items -->
+            </ul>
+        </nav>
+        <div id="decision-making" class="submenu" style="display:none;">
+            <!-- Submenu items here, these could also be list items if you prefer -->
+            <div onclick="loadContent('challenges');">Challenges (A1 - A52)</div>
+            <!-- Repeat for other submenu items -->
+        </div>
+        <!-- Include other submenus with different ids -->
+    </div>
+</body>
+</html>
