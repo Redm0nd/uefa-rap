@@ -546,7 +546,7 @@
 	},
 	"C": {
 		"letter": "C",
-		"category": "Zagranie ręką",
+		"category": "Handball",
 		"dictionary": true,
 		"content": [
 			{
@@ -709,7 +709,7 @@
 	},
 	"D": {
 		"letter": "D",
-		"category": "Trzymanie",
+		"category": "Holding",
 		"dictionary": true,
 		"content": [
 			{
@@ -800,7 +800,7 @@
 	},
 	"E": {
 		"letter": "E",
-		"category": "Atakowanie rękoma",
+		"category": "Illegal Use of the Arms",
 		"dictionary": true,
 		"content": [
 			{
@@ -903,7 +903,7 @@
 	},
 	"F": {
 		"letter": "F",
-		"category": "Decyzje w polu karnym",
+		"category": "Penalty Area Decisions",
 		"dictionary": true,
 		"content": [
 			{
@@ -1138,7 +1138,7 @@
 	},
 	"G": {
 		"letter": "G",
-		"category": "Symulacje",
+		"category": "Simulation",
 		"dictionary": true,
 		"content": [
 			{
@@ -1235,7 +1235,7 @@
 	},
 	"H": {
 		"letter": "H",
-		"category": "Korzyść",
+		"category": "Advantage",
 		"translation": true,
 		"content": [
 			{
@@ -1361,7 +1361,7 @@
 	},
 	"I": {
 		"letter": "I",
-		"category": "Konfrontacje",
+		"category": "Confrontation",
 		"translation": true,
 		"content": [
 			{
@@ -1585,7 +1585,7 @@
 	},
 	"J": {
 		"letter": "J",
-		"category": "Reprymenda",
+		"category": "Control",
 		"translation": true,
 		"content": [
 			{
@@ -1775,7 +1775,7 @@
 
 	"K": {
 		"letter": "K",
-		"category": "Przewinienia wobec sędziów",
+		"category": "Dissent",
 		"translation": true,
 		"content": [
 			{
@@ -1873,7 +1873,7 @@
 	},
 	"L": {
 		"letter": "L",
-		"category": "Spalony",
+		"category": "Offside",
 		"dictionary": true,
 		"content": [
 			{
@@ -2018,7 +2018,7 @@
 	},
 	"M": {
 		"letter": "M",
-		"category": "Współpraca",
+		"category": "Teamwork",
 		"translation": true,
 		"content": [
 			{
@@ -2130,7 +2130,7 @@
 	},
 	"N": {
 		"letter": "N",
-		"category": "Przepisy Gry",
+		"category": "Laws of the Game",
 		"translation": true,
 		"content": [
 			{
