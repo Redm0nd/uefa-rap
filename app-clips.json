@@ -1,101 +1,101 @@
 {
 	"dictionary": {
 		"A": {
-			"no offence": "brak przewinienia",
-			"indirect free kick": "rzut wolny pośredni",
-			"direct free kick": "rzut wolny bezpośredni",
-			"penalty kick": "rzut karny",
-			"careless": "nieostrożnie",
-			"reckless": "nierozważnie",
-			"violent conduct serious foul play": "poważny, rażący faul"
+			"no offence": "",
+			"indirect free kick": "",
+			"direct free kick": "",
+			"penalty kick": "",
+			"careless": "",
+			"reckless": "",
+			"violent conduct serious foul play": ""
 		},
 		"B": {
-			"denying a goal or an obvious goal-scoring opportunity (DOGSO)": "przerwanie realnej szansy na zdobycie bramki",
-			"other": "inne",
-			"reckless challenge": "nierozważny atak",
-			"stopping a promising attack": "przerwanie korzystnej akcji",
-			"stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
-			"DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę"
+			"denying a goal or an obvious goal-scoring opportunity (DOGSO)": "",
+			"other": "",
+			"reckless challenge": "",
+			"stopping a promising attack": "",
+			"stopping a promising attack while not attempting to play the ball": "",
+			"DOGSO while attepmting the ball": ""
 		},
 		"C": {
-			"offence": "przewinienie",
-			"no offence": "brak przewinienia",
-			"ball movement towards hand": "piłka zmierzająca w stronę ręki",
-			"ball coming from a short distance / unexpected ball": "piłka zmierzająca z bliskiej odległości / nieoczekiwana piłka",
-			"hand / arm in natural position": "ręka naturalnie ułożona",
-			"player tries to avoid hand contact with the ball": "zawodnik próbuje uniknąć kontaktu piłki z ręką",
-			"player unable to avoid hand contact with the ball": "zawodnik nie może uniknąć kontaktu piłki z ręką",
-			"hand / arm supports the body, but not extended": "ręka wspiera ciało ale nie powiększa jego obrysu",
-			"ball coming directly from player's own head or body": "piłka zmierza bezpośrednio od głowy lub ciała zawodnika",
-			"other": "inne",
-			"hand moves towards the ball": "ręka zmierza w kierunku piłki",
-			"distance not short / ball not unexpected": "dystans od piłki nie jest bliski / piłka oczekiwana",
-			"hand / arm in unnatural position / beyond shoulder level": "ręka w nienaturalnej pozycji / powyżej barku",
-			"hand / arm makes body unnaturaly bigger": "ręka powiększa obrys ciała",
-			"player does not try to avoid hand contact with the ball": "zawodnik nie próbuje uniknąć kontaktu piłki z ręką",
-			"attacker gains possession / control of the ball after touching it with hand / arm and scores / or creates GSO": "napastnik ma posiadanie / kontrolę nad piłką po dotknięciu jej ręką i strzela bramkę / kreuje realną szansę na zdobycie bramki",
-			"stopping or interfering with a promising attack": "przerwanie korzystnej akcji",
-			"attempt to score or scoring a goal": "próba zdobycia lub zdobycie bramki",
-			"clear attempt to deceive the referee": "świadoma próba zmylenia sędziego",
-			"unsuccessful attempt to prevent a goal": "nieudana próba zapobiegnięcia utraty bramki",
-			"no disciplinary sanction": "brak kary dyscyplinarnej"
+			"offence": "",
+			"no offence": "",
+			"ball movement towards hand": "",
+			"ball coming from a short distance / unexpected ball": "",
+			"hand / arm in natural position": "",
+			"player tries to avoid hand contact with the ball": "",
+			"player unable to avoid hand contact with the ball": "",
+			"hand / arm supports the body, but not extended": "",
+			"ball coming directly from player's own head or body": "",
+			"other": "",
+			"hand moves towards the ball": "",
+			"distance not short / ball not unexpected": "",
+			"hand / arm in unnatural position / beyond shoulder level": "",
+			"hand / arm makes body unnaturaly bigger": "",
+			"player does not try to avoid hand contact with the ball": "",
+			"attacker gains possession / control of the ball after touching it with hand / arm and scores / or creates GSO": "",
+			"stopping or interfering with a promising attack": "",
+			"attempt to score or scoring a goal": "",
+			"clear attempt to deceive the referee": "",
+			"unsuccessful attempt to prevent a goal": "",
+			"no disciplinary sanction": ""
 		},
 		"D": {
-			"no offence": "brak przewinienia",
-			"indirect free kick": "rzut wolny pośredni",
-			"direct free kick": "rzut wolny bezpośredni",
-			"penalty kick": "rzut karny",
-			"promising attack stopped": "przerwanie korzystnej akcji",
-			"showing lack of respect for the game (LOR)": "brak szacunku do zawodów",
-			"reckless challenge": "nierozważny atak",
-			"other": "inne"
+			"no offence": "",
+			"indirect free kick": "",
+			"direct free kick": "",
+			"penalty kick": "",
+			"promising attack stopped": "",
+			"showing lack of respect for the game (LOR)": "",
+			"reckless challenge": "",
+			"other": ""
 		},
 		"E": {
-			"no offence": "brak przewinienia",
-			"indirect free kick": "rzut wolny pośredni",
-			"direct free kick": "rzut wolny bezpośredni",
-			"penalty kick": "rzut karny",
-			"careless": "nieostrożnie",
-			"reckless": "nierozważnie",
-			"violent conduct serious foul play": "poważny, rażący faul"
+			"no offence": "",
+			"indirect free kick": "",
+			"direct free kick": "",
+			"penalty kick": "",
+			"careless": "",
+			"reckless": "",
+			"violent conduct serious foul play": ""
 		},
 		"F": {
-			"no offence": "brak przewinienia",
-			"indirect free kick": "rzut wolny pośredni",
-			"direct free kick": "rzut wolny bezpośredni",
-			"penalty kick": "rzut karny",
-			"careless": "nieostrożnie",
-			"reckless": "nierozważnie",
-			"violent conduct serious foul play": "poważny, rażący faul",
-			"no promising attack stopped / no reckless challenge": "brak przerwania korzystnej akcji / nierozważnego ataku",
-			"promising attacked stopped while attempting to play the ball": "przerwanie korzystnej akcji w walce o piłkę",
-			"reckless challenge": "nierozważny atak",
-			"stopping a promising attack": "przerwanie korzystnej akcji",
-			"stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
-			"DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę",
-			"unsporting behavior": "simulation - niesportowe zachowanie - symulacja",
-			"other": "inne"
+			"no offence": "",
+			"indirect free kick": "",
+			"direct free kick": "",
+			"penalty kick": "",
+			"careless": "",
+			"reckless": "",
+			"violent conduct serious foul play": "",
+			"no promising attack stopped / no reckless challenge": "",
+			"promising attacked stopped while attempting to play the ball": "",
+			"reckless challenge": "",
+			"stopping a promising attack": "",
+			"stopping a promising attack while not attempting to play the ball": "",
+			"DOGSO while attepmting the ball": "",
+			"unsporting behavior": "",
+			"other": ""
 		},
 		"G": {
-			"no offence": "brak przewinienia",
-			"indirect free kick": "rzut wolny pośredni",
-			"direct free kick": "rzut wolny bezpośredni",
-			"penalty kick": "rzut karny",
-			"deceiving the referee when no contact": "zmylenie sędziego, gdy nie ma kontaktu",
-			"using slight contact to deceive the referee": "skorzystanie z drobnego kontaktu, aby oszukać sędziego",
-			"anticipating contact and trying to deceive the referee": "oczekiwanie na kontakt i próba zmylenia sędziego",
-			"initiating contact to deceive the referee": "zainicjowanie kontaktu aby zmylić sędziego",
-			"SPA / other": "przerwanie korzystnej akcji / inne"
+			"no offence": "",
+			"indirect free kick": "",
+			"direct free kick": "",
+			"penalty kick": "",
+			"deceiving the referee when no contact": "",
+			"using slight contact to deceive the referee": "",
+			"anticipating contact and trying to deceive the referee": "",
+			"initiating contact to deceive the referee": "",
+			"SPA / other": ""
 		},
 		"L": {
-			"not offside offence": "brak spalonego",
-			"offside offence": "spalony",
-			"not": "brak",
-			"interfering with an opponent": "wpływ na przeciwnika poprzez",
-			"clearly obstructing opponent's line ov vision": "klarowne zasłanianie pola widzenia przeciwnika",
-			"challenging opponent for the ball": "walka o piłkę z przeciwnikiem",
-			"clearly attempting to play the ball which is close to him / impact on opponent": "ewidentna próba zagrania piłki, która jest blisko niego / wywieranie wpływu na przeciwnika",
-			"making obvious action / clear impact on ability of opponent to play the ball": "wywieranie wpływu na możliwość zagrania piłki przez przeciwnika"
+			"not offside offence": "",
+			"offside offence": "",
+			"not": "",
+			"interfering with an opponent": "",
+			"clearly obstructing opponent's line of vision": "",
+			"challenging opponent for the ball": "",
+			"clearly attempting to play the ball which is close to him / impact on opponent": "",
+			"making obvious action / clear impact on ability of opponent to play the ball": ""
 		}
 	},
 	"A": {
@@ -107,313 +107,313 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/A/A1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/th/A1.gif",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/A/A2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/A/A3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/th/A/A3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/A/A4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/A/A5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/A/A6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/A/A7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/A/A8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/A/A9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/A/A10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/A/A11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/A/A12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/A/A13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/A/A14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/A/A15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/A/A16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A16.png"
 			},
 			{
 				"id": 16,
 				"video": "https://uefa-rap.com/clips/A/A17.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A17.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A17.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A17.png"
 			},
 			{
 				"id": 17,
 				"video": "https://uefa-rap.com/clips/A/A18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A18.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A18.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A18.png"
 			},
 			{
 				"id": 18,
 				"video": "https://uefa-rap.com/clips/A/A19.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A19.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A19.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A19.png"
 			},
 			{
 				"id": 19,
 				"video": "https://uefa-rap.com/clips/A/A20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A20.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A20.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A20.png"
 			},
 			{
 				"id": 20,
 				"video": "https://uefa-rap.com/clips/A/A21.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A21.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A21.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A21.png"
 			},
 			{
 				"id": 21,
 				"video": "https://uefa-rap.com/clips/A/A22.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A22.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A22.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A22.png"
 			},
 			{
 				"id": 22,
 				"video": "https://uefa-rap.com/clips/A/A23.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A23.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A23.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A23.png"
 			},
 			{
 				"id": 23,
 				"video": "https://uefa-rap.com/clips/A/A24.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A24.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A24.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A24.png"
 			},
 			{
 				"id": 24,
 				"video": "https://uefa-rap.com/clips/A/A25.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A25.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A25.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A25.png"
 			},
 			{
 				"id": 25,
 				"video": "https://uefa-rap.com/clips/A/A26.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A26.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A26.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A26.png"
 			},
 			{
 				"id": 26,
 				"video": "https://uefa-rap.com/clips/A/A27.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A27.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A27.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A27.png"
 			},
 			{
 				"id": 27,
 				"video": "https://uefa-rap.com/clips/A/A28.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A28.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A28.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A28.png"
 			},
 			{
 				"id": 28,
 				"video": "https://uefa-rap.com/clips/A/A29.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A29.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A29.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A29.png"
 			},
 			{
 				"id": 29,
 				"video": "https://uefa-rap.com/clips/A/A30.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A30.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A30.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A30.png"
 			},
 			{
 				"id": 30,
 				"video": "https://uefa-rap.com/clips/A/A31.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A31.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A31.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A31.png"
 			},
 			{
 				"id": 31,
 				"video": "https://uefa-rap.com/clips/A/A32.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A32.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A32.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A32.png"
 			},
 			{
 				"id": 32,
 				"video": "https://uefa-rap.com/clips/A/A33.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A33.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A33.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A33.png"
 			},
 			{
 				"id": 33,
 				"video": "https://uefa-rap.com/clips/A/A34.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A34.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A34.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A34.png"
 			},
 			{
 				"id": 34,
 				"video": "https://uefa-rap.com/clips/A/A35.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A35.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A35.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A35.png"
 			},
 			{
 				"id": 35,
 				"video": "https://uefa-rap.com/clips/A/A36.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A36.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A36.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A36.png"
 			},
 			{
 				"id": 36,
 				"video": "https://uefa-rap.com/clips/A/A37.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A37.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A37.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A37.png"
 			},
 			{
 				"id": 37,
 				"video": "https://uefa-rap.com/clips/A/A38.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A38.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A38.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A38.png"
 			},
 			{
 				"id": 38,
 				"video": "https://uefa-rap.com/clips/A/A39.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A39.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A39.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A39.png"
 			},
 			{
 				"id": 39,
 				"video": "https://uefa-rap.com/clips/A/A40.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A40.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A40.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A40.png"
 			},
 			{
 				"id": 40,
 				"video": "https://uefa-rap.com/clips/A/A41.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A41.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A41.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A41.png"
 			},
 			{
 				"id": 41,
 				"video": "https://uefa-rap.com/clips/A/A42.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A42.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A42.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A42.png"
 			},
 			{
 				"id": 42,
 				"video": "https://uefa-rap.com/clips/A/A43.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A43.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A43.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A43.png"
 			},
 			{
 				"id": 43,
 				"video": "https://uefa-rap.com/clips/A/A44.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A44.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A44.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A44.png"
 			},
 			{
 				"id": 44,
 				"video": "https://uefa-rap.com/clips/A/A45.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A45.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A45.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A45.png"
 			},
 			{
 				"id": 45,
 				"video": "https://uefa-rap.com/clips/A/A46.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A46.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A46.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A46.png"
 			},
 			{
 				"id": 46,
 				"video": "https://uefa-rap.com/clips/A/A47.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A47.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A47.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A47.png"
 			},
 			{
 				"id": 47,
 				"video": "https://uefa-rap.com/clips/A/A48.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A48.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A48.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A48.png"
 			},
 			{
 				"id": 48,
 				"video": "https://uefa-rap.com/clips/A/A49.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A49.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A49.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A49.png"
 			},
 			{
 				"id": 49,
 				"video": "https://uefa-rap.com/clips/A/A50.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A50.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A50.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A50.png"
 			},
 			{
 				"id": 50,
 				"video": "https://uefa-rap.com/clips/A/A51.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A51.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A51.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A51.png"
 			},
 			{
 				"id": 51,
 				"video": "https://uefa-rap.com/clips/A/A52.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/A/A52.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/A/A52.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/A/A52.png"
 			}
 		]
 	},
@@ -426,121 +426,121 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/B/B1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/B/B2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/B/B3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/B/B4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/B/B5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/B/B6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/B/B7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/B/B8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/B/B9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/B/B10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/B/B11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/B/B12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/B/B13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/B/B14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/B/B15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/B/B16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B16.png"
 			},
 			{
 				"id": 16,
 				"video": "https://uefa-rap.com/clips/B/B17.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B17.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B17.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B17.png"
 			},
 			{
 				"id": 17,
 				"video": "https://uefa-rap.com/clips/B/B18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B18.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B18.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B18.png"
 			},
 			{
 				"id": 18,
 				"video": "https://uefa-rap.com/clips/B/B19.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B19.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B19.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B19.png"
 			},
 			{
 				"id": 19,
 				"video": "https://uefa-rap.com/clips/B/B20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/B/B20.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/B/B20.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/B/B20.png"
 			}
 		]
 	},
@@ -553,157 +553,157 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/C/C1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/C/C2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/C/C3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/C/C4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/C/C5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/C/C6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/C/C7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/C/C8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/C/C9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/C/C10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/C/C11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/C/C12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/C/C13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/C/C14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/C/C15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/C/C16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C16.png"
 			},
 			{
 				"id": 16,
 				"video": "https://uefa-rap.com/clips/C/C17.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C17.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C17.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C17.png"
 			},
 			{
 				"id": 17,
 				"video": "https://uefa-rap.com/clips/C/C18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C18.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C18.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C18.png"
 			},
 			{
 				"id": 18,
 				"video": "https://uefa-rap.com/clips/C/C19.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C19.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C19.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C19.png"
 			},
 			{
 				"id": 19,
 				"video": "https://uefa-rap.com/clips/C/C20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C20.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C20.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C20.png"
 			},
 			{
 				"id": 20,
 				"video": "https://uefa-rap.com/clips/C/C21.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C21.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C21.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C21.png"
 			},
 			{
 				"id": 21,
 				"video": "https://uefa-rap.com/clips/C/C22.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C22.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C22.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C22.png"
 			},
 			{
 				"id": 22,
 				"video": "https://uefa-rap.com/clips/C/C23.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C23.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C23.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C23.png"
 			},
 			{
 				"id": 23,
 				"video": "https://uefa-rap.com/clips/C/C24.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C24.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C24.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C24.png"
 			},
 			{
 				"id": 24,
 				"video": "https://uefa-rap.com/clips/C/C25.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C25.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C25.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C25.png"
 			},
 			{
 				"id": 25,
 				"video": "https://uefa-rap.com/clips/C/C26.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/C/C26.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/C/C26.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/C/C26.png"
 			}
 		]
 	},
@@ -716,85 +716,85 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/D/D1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/D/D2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/D/D3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/D/D4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/D/D5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/D/D6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/D/D7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/D/D8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/D/D9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/D/D10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/D/D11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/D/D12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/D/D13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/D/D14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/D/D14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/D/D14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/D/D14.png"
 			}
 		]
 	},
@@ -807,97 +807,97 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/E/E1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/E/E2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/E/E3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/E/E4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/E/E5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/E/E6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/E/E7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/E/E8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/E/E9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/E/E10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/E/E11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/E/E12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/E/E13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/E/E14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/E/E15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/E/E16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/E/E16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/E/E16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/E/E16.png"
 			}
 		]
 	},
@@ -910,229 +910,229 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/F/F1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/F/F2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/F/F3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/F/F4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/F/F5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/F/F6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/F/F7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/F/F8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/F/F9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/F/F10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/F/F11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/F/F12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/F/F13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/F/F14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/F/F15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/F/F16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F16.png"
 			},
 			{
 				"id": 16,
 				"video": "https://uefa-rap.com/clips/F/F17.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F17.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F17.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F17.png"
 			},
 			{
 				"id": 17,
 				"video": "https://uefa-rap.com/clips/F/F18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F18.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F18.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions//F/F18.png"
 			},
 			{
 				"id": 18,
 				"video": "https://uefa-rap.com/clips/F/F19.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F19.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F19.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions//F/F19.png"
 			},
 			{
 				"id": 19,
 				"video": "https://uefa-rap.com/clips/F/F20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F20.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F20.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions//F/F20.png"
 			},
 			{
 				"id": 20,
 				"video": "https://uefa-rap.com/clips/F/F21.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F21.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F21.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F21.png"
 			},
 			{
 				"id": 21,
 				"video": "https://uefa-rap.com/clips/F/F22.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F22.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F22.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F22.png"
 			},
 			{
 				"id": 22,
 				"video": "https://uefa-rap.com/clips/F/F23.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F23.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F23.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F23.png"
 			},
 			{
 				"id": 23,
 				"video": "https://uefa-rap.com/clips/F/F24.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F24.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F24.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F24.png"
 			},
 			{
 				"id": 24,
 				"video": "https://uefa-rap.com/clips/F/F25.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F25.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F25.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F25.png"
 			},
 			{
 				"id": 25,
 				"video": "https://uefa-rap.com/clips/F/F26.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F26.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F26.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F26.png"
 			},
 			{
 				"id": 26,
 				"video": "https://uefa-rap.com/clips/F/F27.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F27.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F27.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F27.png"
 			},
 			{
 				"id": 27,
 				"video": "https://uefa-rap.com/clips/F/F28.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F28.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F28.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F28.png"
 			},
 			{
 				"id": 28,
 				"video": "https://uefa-rap.com/clips/F/F29.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F29.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F29.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F29.png"
 			},
 			{
 				"id": 29,
 				"video": "https://uefa-rap.com/clips/F/F30.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F30.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F30.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F30.png"
 			},
 			{
 				"id": 30,
 				"video": "https://uefa-rap.com/clips/F/F31.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F31.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F31.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F31.png"
 			},
 			{
 				"id": 31,
 				"video": "https://uefa-rap.com/clips/F/F32.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F32.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F32.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F32.png"
 			},
 			{
 				"id": 32,
 				"video": "https://uefa-rap.com/clips/F/F33.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F33.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F33.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F33.png"
 			},
 			{
 				"id": 33,
 				"video": "https://uefa-rap.com/clips/F/F34.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F34.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F34.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F34.png"
 			},
 			{
 				"id": 34,
 				"video": "https://uefa-rap.com/clips/F/F35.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F35.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F35.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F35.png"
 			},
 			{
 				"id": 35,
 				"video": "https://uefa-rap.com/clips/F/F36.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F36.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F36.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F36.png"
 			},
 			{
 				"id": 36,
 				"video": "https://uefa-rap.com/clips/F/F37.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F37.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F37.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F37.png"
 			},
 			{
 				"id": 37,
 				"video": "https://uefa-rap.com/clips/F/F38.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/F/F38.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/F/F38.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/F/F38.png"
 			}
 		]
 	},
@@ -1145,91 +1145,91 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/G/G1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/G/G2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/G/G3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/G/G4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/G/G5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/G/G6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/G/G7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/G/G8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/G/G9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/G/G10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/G/G11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/G/G12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/G/G13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/G/G14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/G/G15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/G/G15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/G/G15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/G/G15.png"
 			}
 		]
 	},
@@ -1840,139 +1840,139 @@
 				"id": 0,
 				"video": "https://uefa-rap.com/clips/L/L1.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L1.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L1.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L1.png"
 			},
 			{
 				"id": 1,
 				"video": "https://uefa-rap.com/clips/L/L2.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L2.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L2.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L2.png"
 			},
 			{
 				"id": 2,
 				"video": "https://uefa-rap.com/clips/L/L3.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L3.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L3.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L3.png"
 			},
 			{
 				"id": 3,
 				"video": "https://uefa-rap.com/clips/L/L4.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L4.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L4.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L4.png"
 			},
 			{
 				"id": 4,
 				"video": "https://uefa-rap.com/clips/L/L5.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L5.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L5.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L5.png"
 			},
 			{
 				"id": 5,
 				"video": "https://uefa-rap.com/clips/L/L6.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L6.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L6.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L6.png"
 			},
 			{
 				"id": 6,
 				"video": "https://uefa-rap.com/clips/L/L7.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L7.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L7.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L7.png"
 			},
 			{
 				"id": 7,
 				"video": "https://uefa-rap.com/clips/L/L8.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L8.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L8.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L8.png"
 			},
 			{
 				"id": 8,
 				"video": "https://uefa-rap.com/clips/L/L9.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L9.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L9.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L9.png"
 			},
 			{
 				"id": 9,
 				"video": "https://uefa-rap.com/clips/L/L10.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L10.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L10.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L10.png"
 			},
 			{
 				"id": 10,
 				"video": "https://uefa-rap.com/clips/L/L11.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L11.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L11.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L11.png"
 			},
 			{
 				"id": 11,
 				"video": "https://uefa-rap.com/clips/L/L12.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L12.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L12.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L12.png"
 			},
 			{
 				"id": 12,
 				"video": "https://uefa-rap.com/clips/L/L13.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L13.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L13.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L13.png"
 			},
 			{
 				"id": 13,
 				"video": "https://uefa-rap.com/clips/L/L14.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L14.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L14.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L14.png"
 			},
 			{
 				"id": 14,
 				"video": "https://uefa-rap.com/clips/L/L15.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L15.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L15.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L15.png"
 			},
 			{
 				"id": 15,
 				"video": "https://uefa-rap.com/clips/L/L16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L16.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L16.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L16.png"
 			},
 			{
 				"id": 16,
 				"video": "https://uefa-rap.com/clips/L/L17.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L17.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L17.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L17.png"
 			},
 			{
 				"id": 17,
 				"video": "https://uefa-rap.com/clips/L/L18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L18.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L18.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L18.png"
 			},
 			{
 				"id": 18,
 				"video": "https://uefa-rap.com/clips/L/L19.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L19.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L19.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L19.png"
 			},
 			{
 				"id": 19,
 				"video": "https://uefa-rap.com/clips/L/L20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L20.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L20.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L20.png"
 			},
 			{
 				"id": 20,
 				"video": "https://uefa-rap.com/clips/L/L21.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L21.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L21.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L21.png"
 			},
 			{
 				"id": 21,
 				"video": "https://uefa-rap.com/clips/L/L22.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L22.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L22.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L22.png"
 			},
 			{
 				"id": 22,
 				"video": "https://uefa-rap.com/clips/L/L23.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2023-1/Resource/medias/thumbs/L/L23.jpg",
-				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/UEFA2023-1%20assets/decisions/L/L23.png"
+				"decision": "https://uefa-rap.com/UEFA2023-1/Resource/medias/images/decisions/L/L23.png"
 			}
 		]
 	},
