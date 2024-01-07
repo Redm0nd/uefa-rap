@@ -2,6 +2,8 @@ import boto3
 import os
 import argparse
 import hashlib
+import mimetypes
+
 
 def calculate_md5(file_path):
     hash_md5 = hashlib.md5()
@@ -26,15 +28,24 @@ def upload_files(path, s3, bucket, dry_run=False):
         for file in files:
             local_path = os.path.join(root, file)
             s3_path = os.path.relpath(local_path, path)
+            mime_type, _ = mimetypes.guess_type(local_path)
+            if mime_type is None:
+                mime_type = 'application/octet-stream'  # Default MIME type
+
             if dry_run:
                 if file_changed(s3, bucket, s3_path, local_path):
-                    print(f"Dry run: File {local_path} will be uploaded/updated in s3://{bucket}/{s3_path}")
+                    print(f"Dry run: File {local_path} will be uploaded/updated in s3://{bucket}/{s3_path} with ContentType {mime_type}")
                 else:
                     print(f"Dry run: File {local_path} is unchanged in s3://{bucket}/{s3_path}")
             else:
                 if file_changed(s3, bucket, s3_path, local_path):
-                    s3.upload_file(local_path, bucket, s3_path)
-                    print(f"Uploaded/Updated file {local_path} to s3://{bucket}/{s3_path}")
+                    s3.upload_file(
+                        Filename=local_path, 
+                        Bucket=bucket, 
+                        Key=s3_path,
+                        ExtraArgs={'ContentType': mime_type}
+                    )
+                    print(f"Uploaded/Updated file {local_path} to s3://{bucket}/{s3_path} with ContentType {mime_type}")
                 else:
                     print(f"Skipped unchanged file {local_path}")
 
