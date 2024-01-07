@@ -34,13 +34,18 @@ def upload_files(path, s3, bucket, dry_run=False):
 
             if dry_run:
                 if file_changed(s3, bucket, s3_path, local_path):
-                    print(f"Dry run: File {local_path} will be uploaded/updated in s3://{bucket}/{s3_path}")
+                    print(f"Dry run: File {local_path} will be uploaded/updated in s3://{bucket}/{s3_path} with ContentType {mime_type}")
                 else:
                     print(f"Dry run: File {local_path} is unchanged in s3://{bucket}/{s3_path}")
             else:
                 if file_changed(s3, bucket, s3_path, local_path):
-                    s3.upload_file(local_path, bucket, s3_path)
-                    print(f"Uploaded/Updated file {local_path} to s3://{bucket}/{s3_path}")
+                    s3.upload_file(
+                        Filename=local_path, 
+                        Bucket=bucket, 
+                        Key=s3_path,
+                        ExtraArgs={'ContentType': mime_type}
+                    )
+                    print(f"Uploaded/Updated file {local_path} to s3://{bucket}/{s3_path} with ContentType {mime_type}")
                 else:
                     print(f"Skipped unchanged file {local_path}")
 
