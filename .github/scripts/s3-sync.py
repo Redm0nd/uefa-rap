@@ -2,6 +2,8 @@ import boto3
 import os
 import argparse
 import hashlib
+import mimetypes
+
 
 def calculate_md5(file_path):
     hash_md5 = hashlib.md5()
