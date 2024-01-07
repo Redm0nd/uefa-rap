@@ -21,6 +21,8 @@ def file_changed(s3, bucket, s3_path, local_path):
 
 def upload_files(path, s3, bucket, dry_run=False):
     for root, dirs, files in os.walk(path):
+        if '.git' in dirs:
+            dirs.remove('.git')
         for file in files:
             local_path = os.path.join(root, file)
             s3_path = os.path.relpath(local_path, path)
