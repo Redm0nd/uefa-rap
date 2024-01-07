@@ -26,6 +26,10 @@ def upload_files(path, s3, bucket, dry_run=False):
         for file in files:
             local_path = os.path.join(root, file)
             s3_path = os.path.relpath(local_path, path)
+            mime_type, _ = mimetypes.guess_type(local_path)
+            if mime_type is None:
+                mime_type = 'application/octet-stream'  # Default MIME type
+
             if dry_run:
                 if file_changed(s3, bucket, s3_path, local_path):
                     print(f"Dry run: File {local_path} will be uploaded/updated in s3://{bucket}/{s3_path}")
