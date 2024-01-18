@@ -9,6 +9,11 @@ This project is hosted fully on AWS. Content is stored in S3 and served via Clou
 - Project Link: [https://github.com/Redm0nd/uefa-rap](https://github.com/Redm0nd/uefa-rap)
 - Site URL: [https://uefa-rap.com/](https://uefa-rap.com/)
 
+## Updates
+Original 2023-1 clips are available at uefa-rap.com
+- 2023:2 content is available at [https://2023-2.uefa-rap.com/](https://2023-2.uefa-rap.com/)
+- 2023:1 content is available at [https://2023-1.uefa-rap.com/](https://2023-1.uefa-rap.com/)
+
 ## Deployment
 Uses a custom [S3 Sync](https://github.com/Redm0nd/uefa-rap/actions/workflows/s3-sync.yml) GitHub Action: 
 - On a PR is opened this performs a dry-run of a sync of the changed content to the Bucket (Changes can be reviewed here)
