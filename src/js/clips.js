@@ -13,7 +13,7 @@ const clipTemplateTag = document.querySelector('.clip-template'),
 	pageTitle = document.querySelector('.page-title'),
 	body = document.body
 
-const URL = `https://klajek-10-api.herokuapp.com/clips`
+const URL = `../app-clips.json`
 
 console.clear()
 
@@ -73,7 +73,7 @@ axios
 				clipItem.dataset.index = id
 				clipNumberSpan.textContent = clipName
 				clipThumbnail.setAttribute('src', thumbnail)
-				clipThumbnail.setAttribute('alt', `Klip nr ${clipName}`)
+				clipThumbnail.setAttribute('alt', `Clip no. ${clipName}`)
 
 				galleryContainer.appendChild(clipTemplate)
 			})
@@ -159,7 +159,7 @@ axios
 					const additionalTranslate = data[clipId].translation
 					decisionTranslation.style.display = 'block'
 					additionalExplanationImg.setAttribute('src', additionalImg)
-					additionalExplanationImg.setAttribute('alt', `Wyjaśnienie klipu ${clipName}`)
+					additionalExplanationImg.setAttribute('alt', `Clip Explanation ${clipName}`)
 					decisionTranslation.textContent = additionalTranslate
 				}
 
@@ -183,7 +183,7 @@ axios
 
 				iframe.setAttribute('src', data.video)
 				decisionImg.setAttribute('src', data.decision)
-				decisionImg.setAttribute('alt', `Decyzja klipu ${clipTitle}`)
+				decisionImg.setAttribute('alt', `Clip Decision ${clipTitle}`)
 
 				if (dataSymbol.hasOwnProperty('translation')) {
 					const translation = data.translation
@@ -196,7 +196,7 @@ axios
 						const additionalImg = data.explanation
 						const additionalTranslate = data.translation
 						additionalExplanationImg.setAttribute('src', additionalImg)
-						additionalExplanationImg.setAttribute('alt', `Wyjaśnienie klipu ${clipTitle}`)
+						additionalExplanationImg.setAttribute('alt', `Clip Explanation ${clipTitle}`)
 						decisionTranslation.style.display = 'block'
 						decisionTranslation.textContent = additionalTranslate
 					}
