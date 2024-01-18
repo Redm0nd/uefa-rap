@@ -20,3 +20,6 @@ Uses a custom [S3 Sync](https://github.com/Redm0nd/uefa-rap/actions/workflows/s3
 - Once a PR is merged the Action runs again and actually pushes the code to the Bucket.
 
 The code for this can be found in the [.github](https://github.com/Redm0nd/uefa-rap/tree/main/.github) directory. 
+
+## ToDo
+Some clips won't play on iOS due to video encoding - need to reupload with new encoding 
