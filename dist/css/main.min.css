@@ -389,8 +389,8 @@ body {
 .modal__video-box {
     width: 100%;
     min-height: 200px;
-    height: 50vh;
-    max-height: 600px;
+    height: 80vh;
+    max-height: 700px;
     margin-top: 3em
 }
 
