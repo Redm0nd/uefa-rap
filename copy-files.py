@@ -2,8 +2,8 @@ import boto3
 
 s3_client = boto3.client('s3')
 bucket_name = 'uefa-rap'
-prefix = 'UEFA2023-2/Resource/medias/clips/'
-dry_run = False  # Set to False to perform the actual move
+prefix = 'UEFA2024-2/Resource/medias/clips/'
+dry_run = True  # Set to False to perform the actual move
 
 def move_videos():
     paginator = s3_client.get_paginator('list_objects_v2')
