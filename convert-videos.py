@@ -4,7 +4,7 @@ import os
 
 s3 = boto3.client('s3')
 bucket_name = 'uefa-rap'
-base_prefix = 'UEFA2023-2/Resource/medias/clips/'
+base_prefix = 'UEFA2024-1/Resource/medias/clips/'
 
 def get_directories(prefix):
     directories = set()
@@ -44,5 +44,5 @@ def process_videos(source_prefix, dest_prefix):
 directories = get_directories(base_prefix)
 for dir_prefix in directories:
     source_prefix = dir_prefix
-    dest_prefix = dir_prefix.lower()  # Modify this if different destination structure is required
+    dest_prefix = dir_prefix 
     process_videos(source_prefix, dest_prefix)
