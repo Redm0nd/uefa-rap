@@ -769,6 +769,30 @@
 				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/B/B35.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/B/B35.png",
 				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/B/B35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/B/B36.mp4",
+				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/B/B36.png",
+				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/B/B36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/B/B37.mp4",
+				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/B/B37.png",
+				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/B/B37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/B/B38.mp4",
+				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/B/B38.png",
+				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/B/B38.png"
+			},
+			{
+				"id": 38,
+				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/B/B39.mp4",
+				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/B/B39.png",
+				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/B/B39.png"
 			}
 		]
 	},
@@ -1131,7 +1155,7 @@
 				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/D/D20.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/D/D20.png",
 				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/D/D20.png"
-			},
+			}
 		]
 	},
 	"E": {
@@ -1246,7 +1270,7 @@
 				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/E/E18.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/E/E18.png",
 				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/E/E18.png"
-			},
+			}
 		]
 	},
 	"F": {
@@ -1656,7 +1680,7 @@
 				"video": "https://uefa-rap.com/UEFA2024-1/Resource/medias/clips/G/G16.mp4",
 				"thumbnail": "https://uefa-rap.com/UEFA2024-1/Resource/medias/th/G/G16.png",
 				"decision": "https://uefa-rap.com/UEFA2024-1/Resource/medias/images/decisions/G/G16.png"
-			},
+			}
 		]
 	},
 	"H": {
