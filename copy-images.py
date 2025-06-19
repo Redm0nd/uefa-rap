@@ -2,7 +2,7 @@ import boto3
 
 s3_client = boto3.client('s3')
 bucket_name = 'uefa-rap'
-prefix = 'UEFA2023-2/Resource/medias/images/explanations/'
+prefix = 'UEFA2025-1/Resource/medias/images/decisions/'
 dry_run = False  # Set to False to perform the actual move
 
 def move_videos():

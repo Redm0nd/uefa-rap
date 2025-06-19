@@ -4,7 +4,7 @@ import io
 
 s3_client = boto3.client('s3')
 bucket_name = 'uefa-rap'
-prefix = 'UEFA2023-2/Resource/medias/th/'
+prefix = 'UEFA2025-1/Resource/medias/th/'
 dry_run = False  # Set to False to perform the actual conversion and move
 
 def convert_and_move_gifs():

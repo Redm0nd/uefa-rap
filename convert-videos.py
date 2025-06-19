@@ -4,7 +4,7 @@ import os
 
 s3 = boto3.client('s3')
 bucket_name = 'uefa-rap'
-base_prefix = 'UEFA2024-1/Resource/medias/clips/'
+base_prefix = 'UEFA2025-1/Resource/medias/clips/'
 
 def get_directories(prefix):
     directories = set()
