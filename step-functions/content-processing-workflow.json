@@ -1,7 +1,103 @@
 {
-  "Comment": "UEFA RAP Content Processing Pipeline",
-  "StartAt": "ProcessOCR",
+  "Comment": "UEFA RAP Content Processing Pipeline - Parallel Processing",
+  "StartAt": "PrepareVideoProcessing",
   "States": {
+    "PrepareVideoProcessing": {
+      "Type": "Task",
+      "Resource": "${VIDEO_BATCH_PROCESSOR_LAMBDA_ARN}",
+      "Comment": "Prepare video processing batches (groups videos for parallel processing)",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 5,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "Next": "ProcessingFailed",
+          "ResultPath": "$.error"
+        }
+      ],
+      "Next": "ProcessVideosBatch"
+    },
+    "ProcessVideosBatch": {
+      "Type": "Map",
+      "Comment": "Process videos in parallel batches",
+      "ItemsPath": "$.video_batches",
+      "MaxConcurrency": 10,
+      "Iterator": {
+        "StartAt": "ProcessVideoBatch",
+        "States": {
+          "ProcessVideoBatch": {
+            "Type": "Task",
+            "Resource": "${VIDEO_PROCESSOR_LAMBDA_ARN}",
+            "Comment": "Process a batch of videos (5-10 videos per batch)",
+            "Retry": [
+              {
+                "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+                "IntervalSeconds": 5,
+                "MaxAttempts": 2,
+                "BackoffRate": 2.0
+              }
+            ],
+            "End": true
+          }
+        }
+      },
+      "ResultPath": "$.video_processing_results",
+      "Next": "PrepareThumbnailProcessing"
+    },
+    "PrepareThumbnailProcessing": {
+      "Type": "Task",
+      "Resource": "${THUMBNAIL_BATCH_PROCESSOR_LAMBDA_ARN}",
+      "Comment": "Prepare thumbnail processing batches",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 5,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "Next": "ProcessingFailed",
+          "ResultPath": "$.error"
+        }
+      ],
+      "Next": "ProcessThumbnailsBatch"
+    },
+    "ProcessThumbnailsBatch": {
+      "Type": "Map",
+      "Comment": "Process thumbnails in parallel batches",
+      "ItemsPath": "$.thumbnail_batches",
+      "MaxConcurrency": 15,
+      "Iterator": {
+        "StartAt": "ProcessThumbnailBatch",
+        "States": {
+          "ProcessThumbnailBatch": {
+            "Type": "Task",
+            "Resource": "${THUMBNAIL_GENERATOR_LAMBDA_ARN}",
+            "Comment": "Process a batch of thumbnails (10-20 thumbnails per batch)",
+            "Retry": [
+              {
+                "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+                "IntervalSeconds": 5,
+                "MaxAttempts": 2,
+                "BackoffRate": 2.0
+              }
+            ],
+            "End": true
+          }
+        }
+      },
+      "ResultPath": "$.thumbnail_processing_results",
+      "Next": "ProcessOCR"
+    },
     "ProcessOCR": {
       "Type": "Task",
       "Resource": "${OCR_PROCESSOR_LAMBDA_ARN}",

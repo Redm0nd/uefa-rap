@@ -65,6 +65,10 @@ mkdir -p terraform/lambda_packages
 
 # Package all Lambda functions
 package_lambda "zip-processor"
+package_lambda "video-batch-processor"
+package_lambda "video-processor"
+package_lambda "thumbnail-batch-processor"
+package_lambda "thumbnail-generator"
 package_lambda "ocr-processor" 
 package_lambda "content-deployer"
 

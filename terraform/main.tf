@@ -163,6 +163,70 @@ resource "aws_lambda_function" "ocr_processor" {
   depends_on = [aws_iam_role_policy.lambda_execution_policy]
 }
 
+# Video Batch Processor Lambda Function
+resource "aws_lambda_function" "video_batch_processor" {
+  filename         = "lambda_packages/video-batch-processor.zip"
+  function_name    = "${var.project_name}-video-batch-processor-${var.environment}"
+  role            = aws_iam_role.lambda_execution_role.arn
+  handler         = "index.lambda_handler"
+  runtime         = "python3.11"
+  timeout         = 300  # 5 minutes for batch preparation
+  memory_size     = 512
+
+  depends_on = [aws_iam_role_policy.lambda_execution_policy]
+}
+
+# Video Processor Lambda Function
+resource "aws_lambda_function" "video_processor" {
+  filename         = "lambda_packages/video-processor.zip"
+  function_name    = "${var.project_name}-video-processor-${var.environment}"
+  role            = aws_iam_role.lambda_execution_role.arn
+  handler         = "index.lambda_handler"
+  runtime         = "python3.11"
+  timeout         = 900  # 15 minutes for video processing
+  memory_size     = 3008  # Maximum memory for ffmpeg processing
+
+  environment {
+    variables = {
+      WEBSITE_BUCKET = module.website_bucket.bucket_name
+    }
+  }
+
+  depends_on = [aws_iam_role_policy.lambda_execution_policy]
+}
+
+# Thumbnail Batch Processor Lambda Function
+resource "aws_lambda_function" "thumbnail_batch_processor" {
+  filename         = "lambda_packages/thumbnail-batch-processor.zip"
+  function_name    = "${var.project_name}-thumbnail-batch-processor-${var.environment}"
+  role            = aws_iam_role.lambda_execution_role.arn
+  handler         = "index.lambda_handler"
+  runtime         = "python3.11"
+  timeout         = 300  # 5 minutes for batch preparation
+  memory_size     = 512
+
+  depends_on = [aws_iam_role_policy.lambda_execution_policy]
+}
+
+# Thumbnail Generator Lambda Function
+resource "aws_lambda_function" "thumbnail_generator" {
+  filename         = "lambda_packages/thumbnail-generator.zip"
+  function_name    = "${var.project_name}-thumbnail-generator-${var.environment}"
+  role            = aws_iam_role.lambda_execution_role.arn
+  handler         = "index.lambda_handler"
+  runtime         = "python3.11"
+  timeout         = 600  # 10 minutes for thumbnail processing
+  memory_size     = 1024
+
+  environment {
+    variables = {
+      WEBSITE_BUCKET = module.website_bucket.bucket_name
+    }
+  }
+
+  depends_on = [aws_iam_role_policy.lambda_execution_policy]
+}
+
 # Content Deployer Lambda Function
 resource "aws_lambda_function" "content_deployer" {
   filename         = "lambda_packages/content-deployer.zip"
@@ -190,8 +254,12 @@ resource "aws_sfn_state_machine" "content_processing" {
   role_arn = aws_iam_role.step_functions_role.arn
 
   definition = templatefile("${path.module}/../step-functions/content-processing-workflow.json", {
-    OCR_PROCESSOR_LAMBDA_ARN    = aws_lambda_function.ocr_processor.arn
-    CONTENT_DEPLOYER_LAMBDA_ARN = aws_lambda_function.content_deployer.arn
+    VIDEO_BATCH_PROCESSOR_LAMBDA_ARN     = aws_lambda_function.video_batch_processor.arn
+    VIDEO_PROCESSOR_LAMBDA_ARN           = aws_lambda_function.video_processor.arn
+    THUMBNAIL_BATCH_PROCESSOR_LAMBDA_ARN = aws_lambda_function.thumbnail_batch_processor.arn
+    THUMBNAIL_GENERATOR_LAMBDA_ARN       = aws_lambda_function.thumbnail_generator.arn
+    OCR_PROCESSOR_LAMBDA_ARN             = aws_lambda_function.ocr_processor.arn
+    CONTENT_DEPLOYER_LAMBDA_ARN          = aws_lambda_function.content_deployer.arn
   })
 
   depends_on = [aws_iam_role_policy.step_functions_policy]
@@ -344,6 +412,10 @@ resource "aws_iam_role_policy" "step_functions_policy" {
           "lambda:InvokeFunction"
         ]
         Resource = [
+          aws_lambda_function.video_batch_processor.arn,
+          aws_lambda_function.video_processor.arn,
+          aws_lambda_function.thumbnail_batch_processor.arn,
+          aws_lambda_function.thumbnail_generator.arn,
           aws_lambda_function.ocr_processor.arn,
           aws_lambda_function.content_deployer.arn
         ]
