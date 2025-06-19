@@ -1,1 +1,250 @@
-.terraform/
+# UEFA RAP - Git Ignore File
+
+# ========================================
+# LARGE MEDIA FILES (UEFA Content)
+# ========================================
+
+# UEFA ZIP files and extracted content
+UEFA2025-*.zip
+uefa-sample/
+*.mpp
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Image files (except small icons/logos)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+
+# Audio files
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.flac
+
+# ========================================
+# TERRAFORM & AWS
+# ========================================
+
+# Terraform state files
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfstate.backup
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
+terraform/terraform.tfvars.json
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+# Lambda deployment packages
+terraform/lambda_packages/
+*.zip
+
+# AWS credentials
+.aws/
+aws-credentials.json
+
+# ========================================
+# NODE.JS & DEPENDENCIES
+# ========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ========================================
+# PYTHON & VIRTUAL ENVIRONMENTS
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# ========================================
+# DEVELOPMENT & EDITORS
+# ========================================
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# BUILD & DEPLOYMENT
+# ========================================
+
+# Build directories
+dist/
+build/
+out/
+
+# Sass cache
+.sass-cache/
+
+# Compiled CSS
+*.css.map
+
+# ========================================
+# SECRETS & CONFIGURATION
+# ========================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Secret files
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+
+# Configuration with sensitive data
+config/production.json
+config/local.json
+
+# ========================================
+# BACKUP & ARCHIVE FILES
+# ========================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files (except UEFA content)
+# *.zip (commented out as we need some zip files)
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# ========================================
+# KEEP THESE IMPORTANT FILES
+# ========================================
+
+# Force include important small files
+!src/assets/icons/*.png
+!src/assets/logos/*.svg
+!README.md
+!package.json
+!terraform/environments/*.tfvars
+!terraform/scripts/*.sh
+
+# ========================================
+# PROJECT SPECIFIC
+# ========================================
+
+# Processed content directories
+processed/
+output/
+UEFA2025-1/
+
+# Local development
+local-content/
+test-uploads/
