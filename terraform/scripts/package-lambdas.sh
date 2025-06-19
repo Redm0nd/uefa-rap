@@ -35,9 +35,9 @@ package_lambda() {
     # Copy source files
     cp -r "$source_dir"/* "$temp_dir/"
     
-    # Create ZIP package
+    # Create ZIP package (use absolute path)
     cd "$temp_dir"
-    zip -r "$package_file" .
+    zip -r "$PROJECT_ROOT/$package_file" .
     cd - > /dev/null
     
     # Clean up
@@ -59,6 +59,9 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 cd "$PROJECT_ROOT"
 
 echo "📁 Project root: $PROJECT_ROOT"
+
+# Ensure the lambda_packages directory exists
+mkdir -p terraform/lambda_packages
 
 # Package all Lambda functions
 package_lambda "zip-processor"

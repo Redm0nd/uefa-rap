@@ -93,8 +93,8 @@ def deploy_content_to_website(zip_path, content_structure, website_bucket, base_
                     # Extract video from ZIP
                     video_data = zip_ref.read(video['path'])
                     
-                    # Upload to S3
-                    s3_key = f"UEFA2025-1/Resource/medias/clips/{video['path'].split('/')[-1]}"
+                    # Upload to S3 (files are directly in clips folder)
+                    s3_key = f"UEFA2025-1/Resource/medias/clips/{video['filename']}"
                     s3_client.put_object(
                         Bucket=website_bucket,
                         Key=s3_key,
@@ -114,9 +114,8 @@ def deploy_content_to_website(zip_path, content_structure, website_bucket, base_
                     # Extract image from ZIP
                     image_data = zip_ref.read(decision['path'])
                     
-                    # Upload to S3
-                    s3_key = f"UEFA2025-1/Resource/medias/images/decisions/{decision['path'].split('/')[-2:]}"
-                    s3_key = f"UEFA2025-1/Resource/medias/images/decisions/{category_letter}/{decision['filename']}"
+                    # Upload to S3 (files are directly in decisions folder)
+                    s3_key = f"UEFA2025-1/Resource/medias/images/decisions/{decision['filename']}"
                     
                     s3_client.put_object(
                         Bucket=website_bucket,
@@ -137,8 +136,8 @@ def deploy_content_to_website(zip_path, content_structure, website_bucket, base_
                     # Extract image from ZIP
                     image_data = zip_ref.read(explanation['path'])
                     
-                    # Upload to S3
-                    s3_key = f"UEFA2025-1/Resource/medias/images/explanations/{category_letter}/{explanation['filename']}"
+                    # Upload to S3 (files are directly in explanations folder)
+                    s3_key = f"UEFA2025-1/Resource/medias/images/explanations/{explanation['filename']}"
                     
                     s3_client.put_object(
                         Bucket=website_bucket,
@@ -235,15 +234,15 @@ def generate_content_entries(category, base_url):
         if video:
             entry = {
                 "id": video_id - 1,  # 0-based indexing for the app
-                "video": f"{base_url}/UEFA2025-1/Resource/medias/clips/{category_letter}/{video['filename']}",
-                "thumbnail": f"{base_url}/UEFA2025-1/Resource/medias/th/{category_letter}/{category_letter}{video_id}.png"
+                "video": f"{base_url}/UEFA2025-1/Resource/medias/clips/{video['filename']}",
+                "thumbnail": f"{base_url}/UEFA2025-1/Resource/medias/th/{video['filename'].replace('.mp4', '.png')}"
             }
             
-            # Add decision or explanation image
+            # Add decision or explanation image (files are directly in folders)
             if category.get('type') == 'dictionary':
-                entry["decision"] = f"{base_url}/UEFA2025-1/Resource/medias/images/decisions/{category_letter}/{category_letter}{video_id}.png"
+                entry["decision"] = f"{base_url}/UEFA2025-1/Resource/medias/images/decisions/{category_letter}{video_id}.png"
             elif category.get('type') == 'translation':
-                entry["decision"] = f"{base_url}/UEFA2025-1/Resource/medias/images/explanations/{category_letter}/{category_letter}{video_id}.png"
+                entry["decision"] = f"{base_url}/UEFA2025-1/Resource/medias/images/explanations/{category_letter}{video_id}.png"
             
             content_entries.append(entry)
     

@@ -70,27 +70,38 @@ graph TD
 
 ```
 UEFA2025-1.zip
-├── Resource/
-│   ├── medias/
-│   │   ├── clips/
-│   │   │   ├── A/
-│   │   │   │   ├── A1.mp4
-│   │   │   │   └── A2.mp4...
-│   │   │   ├── B/
-│   │   │   └── C/...
-│   │   └── images/
-│   │       ├── decisions/
-│   │       │   ├── A/
-│   │       │   │   ├── A1.png
-│   │       │   │   └── A2.png...
-│   │       │   └── B/...
-│   │       └── explanations/
-│   │           ├── H/
-│   │           └── J/...
-│   └── en/
-│       ├── 1.xml
-│       └── 2.xml...
+├── ReadmeMulppyENG.pdf
+├── ReadmeMulppyESP.pdf
+└── Resource/
+    ├── medias/
+    │   ├── clips/
+    │   │   ├── A1.mp4
+    │   │   ├── A2.mp4
+    │   │   ├── B1.mp4
+    │   │   ├── C1.mp4
+    │   │   └── ... (all videos directly in clips folder)
+    │   └── images/
+    │       ├── decisions/
+    │       │   ├── A1.png
+    │       │   ├── A2.png
+    │       │   ├── B1.png
+    │       │   └── ... (all decision images directly in decisions folder)
+    │       └── explanations/
+    │           ├── H1.png
+    │           ├── H2.png
+    │           ├── J1.png
+    │           └── ... (all explanation images directly in explanations folder)
+    └── en/
+        ├── 1.xml
+        ├── 2.xml
+        └── principal.xml
 ```
+
+**Key Structure Notes:**
+- All video files are directly in `Resource/medias/clips/` (no category subfolders)
+- All decision images are directly in `Resource/medias/images/decisions/` (no category subfolders)  
+- All explanation images are directly in `Resource/medias/images/explanations/` (no category subfolders)
+- Category information is extracted from filenames (e.g., `A15.mp4` = Category A, ID 15)
 
 ## Category Types
 

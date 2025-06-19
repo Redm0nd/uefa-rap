@@ -100,22 +100,24 @@ def extract_and_validate_zip(zip_path):
         
         for file_path in file_list:
             if file_path.startswith('Resource/medias/clips/'):
-                # Extract category and file info from clips
+                # Extract filename from clips (files are directly in clips folder)
                 parts = file_path.split('/')
-                if len(parts) >= 5:  # Resource/medias/clips/[category]/[file]
-                    category = parts[3]
-                    filename = parts[4]
-                    
-                    if category not in categories:
-                        categories[category] = {
-                            'letter': category,
-                            'videos': [],
-                            'decisions': [],
-                            'explanations': [],
-                            'thumbnails': []
-                        }
+                if len(parts) >= 4:  # Resource/medias/clips/[file]
+                    filename = parts[3]
                     
                     if filename.endswith('.mp4'):
+                        # Extract category from filename (e.g., A1.mp4 -> A)
+                        category = extract_category_from_filename(filename)
+                        
+                        if category not in categories:
+                            categories[category] = {
+                                'letter': category,
+                                'videos': [],
+                                'decisions': [],
+                                'explanations': [],
+                                'thumbnails': []
+                            }
+                        
                         categories[category]['videos'].append({
                             'filename': filename,
                             'path': file_path,
@@ -123,22 +125,24 @@ def extract_and_validate_zip(zip_path):
                         })
             
             elif file_path.startswith('Resource/medias/images/decisions/'):
-                # Extract decision images
+                # Extract decision images (files are directly in decisions folder)
                 parts = file_path.split('/')
-                if len(parts) >= 6:  # Resource/medias/images/decisions/[category]/[file]
-                    category = parts[4]
-                    filename = parts[5]
-                    
-                    if category not in categories:
-                        categories[category] = {
-                            'letter': category,
-                            'videos': [],
-                            'decisions': [],
-                            'explanations': [],
-                            'thumbnails': []
-                        }
+                if len(parts) >= 5:  # Resource/medias/images/decisions/[file]
+                    filename = parts[4]
                     
                     if filename.endswith('.png'):
+                        # Extract category from filename (e.g., A1.png -> A)
+                        category = extract_category_from_filename(filename)
+                        
+                        if category not in categories:
+                            categories[category] = {
+                                'letter': category,
+                                'videos': [],
+                                'decisions': [],
+                                'explanations': [],
+                                'thumbnails': []
+                            }
+                        
                         categories[category]['decisions'].append({
                             'filename': filename,
                             'path': file_path,
@@ -146,22 +150,24 @@ def extract_and_validate_zip(zip_path):
                         })
             
             elif file_path.startswith('Resource/medias/images/explanations/'):
-                # Extract explanation images
+                # Extract explanation images (files are directly in explanations folder)
                 parts = file_path.split('/')
-                if len(parts) >= 6:  # Resource/medias/images/explanations/[category]/[file]
-                    category = parts[4]
-                    filename = parts[5]
-                    
-                    if category not in categories:
-                        categories[category] = {
-                            'letter': category,
-                            'videos': [],
-                            'decisions': [],
-                            'explanations': [],
-                            'thumbnails': []
-                        }
+                if len(parts) >= 5:  # Resource/medias/images/explanations/[file]
+                    filename = parts[4]
                     
                     if filename.endswith('.png'):
+                        # Extract category from filename (e.g., H1.png -> H)
+                        category = extract_category_from_filename(filename)
+                        
+                        if category not in categories:
+                            categories[category] = {
+                                'letter': category,
+                                'videos': [],
+                                'decisions': [],
+                                'explanations': [],
+                                'thumbnails': []
+                            }
+                        
                         categories[category]['explanations'].append({
                             'filename': filename,
                             'path': file_path,
@@ -215,6 +221,15 @@ def extract_and_validate_zip(zip_path):
     }
     
     return content_structure
+
+def extract_category_from_filename(filename):
+    """
+    Extract category letter from filename
+    E.g., 'A15.mp4' -> 'A', 'H3.png' -> 'H'
+    """
+    import re
+    match = re.search(r'^([A-N])\d+', filename)
+    return match.group(1) if match else None
 
 def extract_id_from_filename(filename):
     """
