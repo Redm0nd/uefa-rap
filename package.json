@@ -1,0 +1,38 @@
+{
+  "name": "uefa-rap",
+  "version": "1.0.0",
+  "description": "Introduction Site to view UEFA RAP content outside of Mulppy in web browser, works on desktop & mobile.",
+  "main": "dist/index.html",
+  "scripts": {
+    "build:css": "sass src/sass/main.scss dist/css/main.min.css --style=compressed",
+    "build:js": "terser src/js/main.js -o dist/js/main.min.js --compress --mangle && terser src/js/clips.js -o dist/js/clips.min.js --compress --mangle",
+    "build": "npm run build:css && npm run build:js",
+    "deploy": "python .github/scripts/s3-sync.py",
+    "start": "serve -s ."
+  },
+  "devDependencies": {
+    "sass": "^1.49.11",
+    "serve": "^14.2.0",
+    "terser": "^5.20.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redm0nd/uefa-rap.git"
+  },
+  "keywords": [
+    "uefa",
+    "rap",
+    "soccer",
+    "referee",
+    "education"
+  ],
+  "author": "Dylan Redmond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redm0nd/uefa-rap/issues"
+  },
+  "homepage": "https://github.com/Redm0nd/uefa-rap#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
