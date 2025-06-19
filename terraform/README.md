@@ -182,7 +182,7 @@ aws cloudfront create-invalidation --distribution-id E1234567890 --paths "/*"
 ### State Management
 
 - State files are stored in S3 with encryption
-- Native S3 locking provides state locking (use_lockfile = true)
+- Native S3 locking provides state locking automatically
 - Each environment has separate state
 
 ### Cleanup

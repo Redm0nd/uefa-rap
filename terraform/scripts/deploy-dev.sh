@@ -55,6 +55,21 @@ check_prerequisites() {
     echo -e "${GREEN}✅ Prerequisites check passed${NC}"
 }
 
+# Function to package Lambda functions
+package_lambdas() {
+    echo -e "${BLUE}🔧 Packaging Lambda Functions...${NC}"
+    
+    # Run the Lambda packaging script
+    ./scripts/package-lambdas.sh
+    
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}✅ Lambda functions packaged successfully${NC}"
+    else
+        echo -e "${RED}❌ Lambda packaging failed${NC}"
+        exit 1
+    fi
+}
+
 # Function to initialize Terraform
 terraform_init() {
     echo -e "${BLUE}🔧 Initializing Terraform...${NC}"
@@ -147,6 +162,7 @@ main() {
     fi
     
     check_prerequisites
+    package_lambdas
     terraform_init
     terraform_validate
     terraform_plan

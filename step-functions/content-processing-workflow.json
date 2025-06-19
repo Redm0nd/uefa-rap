@@ -1,0 +1,66 @@
+{
+  "Comment": "UEFA RAP Content Processing Pipeline",
+  "StartAt": "ProcessOCR",
+  "States": {
+    "ProcessOCR": {
+      "Type": "Task",
+      "Resource": "${OCR_PROCESSOR_LAMBDA_ARN}",
+      "Comment": "Extract decision options from images using OCR",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 5,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "Next": "ProcessingFailed",
+          "ResultPath": "$.error"
+        }
+      ],
+      "Next": "DeployContent"
+    },
+    "DeployContent": {
+      "Type": "Task",
+      "Resource": "${CONTENT_DEPLOYER_LAMBDA_ARN}",
+      "Comment": "Deploy processed content to website S3 bucket",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.AWSLambdaException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 5,
+          "MaxAttempts": 3,
+          "BackoffRate": 2.0
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.TaskFailed"],
+          "Next": "ProcessingFailed",
+          "ResultPath": "$.error"
+        }
+      ],
+      "Next": "ProcessingComplete"
+    },
+    "ProcessingComplete": {
+      "Type": "Pass",
+      "Comment": "Content processing completed successfully",
+      "Result": {
+        "status": "SUCCESS",
+        "message": "UEFA content processed and deployed successfully"
+      },
+      "End": true
+    },
+    "ProcessingFailed": {
+      "Type": "Pass",
+      "Comment": "Content processing failed",
+      "Result": {
+        "status": "FAILED",
+        "message": "UEFA content processing failed"
+      },
+      "End": true
+    }
+  }
+}
