@@ -46,9 +46,19 @@ def lambda_handler(event, context):
             'timestamp': context.log_stream_name
         }
         
+        # Construct Step Functions ARN dynamically
+        import boto3
+        sts_client = boto3.client('sts')
+        account_id = sts_client.get_caller_identity()['Account']
+        region = boto3.Session().region_name or 'us-east-1'
+        
+        project_name = os.environ.get('PROJECT_NAME', 'uefa-rap')
+        environment = os.environ.get('ENVIRONMENT', 'dev')
+        step_function_arn = f"arn:aws:states:{region}:{account_id}:stateMachine:{project_name}-content-processing-{environment}"
+        
         # Start the Step Functions workflow
         response = stepfunctions_client.start_execution(
-            stateMachineArn=os.environ['STEP_FUNCTION_ARN'],
+            stateMachineArn=step_function_arn,
             name=f"uefa-processing-{context.aws_request_id}",
             input=json.dumps(workflow_input)
         )

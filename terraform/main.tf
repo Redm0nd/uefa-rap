@@ -142,7 +142,8 @@ resource "aws_lambda_function" "zip_processor" {
 
   environment {
     variables = {
-      STEP_FUNCTION_ARN = aws_sfn_state_machine.content_processing.arn
+      PROJECT_NAME = var.project_name
+      ENVIRONMENT  = var.environment
     }
   }
 
@@ -299,7 +300,7 @@ resource "aws_iam_role_policy" "lambda_execution_policy" {
         Action = [
           "states:StartExecution"
         ]
-        Resource = aws_sfn_state_machine.content_processing.arn
+        Resource = "*"
       },
       {
         Effect = "Allow"
